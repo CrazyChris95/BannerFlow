@@ -8,7 +8,7 @@ HTTP Post - Create method
 HTTP PUT - Update method 
 HTTP DELETE- DELETE Method
 
-HTTP GET {LocalHost}/api/Banners : Gets all banner in list format
+HTTP GET {LocalHost}/api/Banners : Gets all banner in list format)
 HTTP GET {LocalHost}/api/Banners/{int:id} : Gets specific banner object
 HTTP POST {LocalHost}/api/Banners BODY - JsonObject : Creates banner and store in memory database, only html string needs to be specified.
 HTTP DELETE {LocalHost}/api/Banners/{int:id} : Deletes specified banner
